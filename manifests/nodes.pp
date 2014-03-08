@@ -1,4 +1,4 @@
 
-node basenode {
+node default {
 	include "barlocker"
 }
