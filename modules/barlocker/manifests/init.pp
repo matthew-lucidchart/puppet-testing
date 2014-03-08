@@ -10,4 +10,8 @@ class barlocker {
 	package { "ntp":
 		ensure => "latest",
 	}
+
+	package { "cowsay":
+		ensure => "latest",
+	}
 }
