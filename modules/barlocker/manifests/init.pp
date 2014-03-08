@@ -4,6 +4,10 @@ class barlocker {
 		owner => "root",
 		group => "root",
 		mode => 644,
-		source => "puppet:///modules/barlocker/testfile1"
+		source => "puppet:///modules/barlocker/testfile1",
+	}
+
+	package { "ntp":
+		ensure => "latest",
 	}
 }
